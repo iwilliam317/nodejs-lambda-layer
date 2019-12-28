@@ -18,16 +18,16 @@ zip -r nodejs-layer.zip nodejs
 
 1. Install the dependencies
 2. Create a folder
-3. copy node_modules into nodejs
+3. Copy node_modules into nodejs
 4. Zip nodejs folder into a nodejs-layer.zip
 
 ## Deploy/Upload
-AWS supports layers by uploading either by S3 or Zip file.
+AWS supports layers by uploading either by S3 or zip file.
 
 Into Lambda section, go to Layer and Add Layer. After that, connect the lambda with the Layer.
 
 Now you can use the dependencies abstracted in layers. 
 * Quick remind: Lambda functions can use up to 5 layer and the total size (function + layer(s)) can't exceed 250mb unzipped.
 
-For further details check this [post](https://www.freecodecamp.org/news/lambda-layers-2f80b9211318/)
+For further details check this [Post](https://www.freecodecamp.org/news/lambda-layers-2f80b9211318/) here!
 
