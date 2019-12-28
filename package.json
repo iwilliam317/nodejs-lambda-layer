@@ -1,0 +1,12 @@
+{
+  "name": "momentjs-layer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "moment": "^2.24.0"
+  },
+  "scripts": {
+     "build": "yarn && mkdir -p nodejs && cp -r node_modules nodejs/ && zip -r moment-layer.zip nodejs"
+  }
+}
